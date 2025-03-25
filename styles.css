@@ -8,3 +8,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;
 }
+
+#text-button {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
