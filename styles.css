@@ -15,14 +15,24 @@
     gap: 50px;
 }
 
-#button {
+.button {
     margin-right: 10px;
     font-size: 17px;
+    border-radius: 8px;
+    border: 2px solid brown;
+    color: rgb(92, 15, 15);
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.38s;
+}
+
+.button:hover {
+    background-color: brown;
+    color: white;
 }
 
 hr {
     border: 0;
     height: 1px;
     width: 820px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), brown, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(165, 42, 42, 0.356), rgba(0, 0, 0, 0));
 }
