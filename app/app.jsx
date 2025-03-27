@@ -1,8 +1,7 @@
 const ReactDOM = require("react-dom/client");
 const React = require("react");
 const Header = require("./components/header.jsx");
-const Article = require("./components/article.jsx");
-const Button = require("./components/button.jsx");
+const {Counter, AgreeFlag} = require("./components/button.jsx");
 const HelloUser = require("./components/field.jsx");
 const ButtonChangeColor = require("./components/iterateColor.jsx");
 
@@ -14,20 +13,23 @@ ReactDOM
     .render(
         <div>
             <Header text={headerText}/>
-            <Article text={greetingText}/>
+            <p>{greetingText}</p>
         </div>
     )
 
 ReactDOM
     .createRoot(document.getElementById("button-counter"))
     .render(
-        <Button />
+        <Counter />
     )
 
 ReactDOM
     .createRoot(document.getElementById("field-hello"))
     .render(
-        <HelloUser />
+        <div>
+            <HelloUser />
+            <AgreeFlag />
+        </div>
     )
 
 ReactDOM

@@ -19,3 +19,10 @@
     margin-right: 10px;
     font-size: 17px;
 }
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 820px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), brown, rgba(0, 0, 0, 0));
+}
